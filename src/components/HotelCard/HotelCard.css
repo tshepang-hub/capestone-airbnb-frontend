@@ -1,0 +1,62 @@
+/* HotelCard.css */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-details {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .card-price {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .button.update {
+    background-color: #007bff;
+  }
+  
+  .button.delete {
+    background-color: #dc3545;
+  }
+  

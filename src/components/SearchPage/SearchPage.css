@@ -1,0 +1,42 @@
+.searchPageBtn{
+    border-radius: 40px !important;
+}
+
+.reserve-info {
+  padding: 20px 20px 0 27px;
+}
+  
+  .reserve-info > p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .reserve-info > h1 {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  .reserve-info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+  }
+
+  .searchPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.searchPage-results {
+  padding: 20px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.searchPageBtn {
+    font-size: 14px;
+    padding: 8px 16px;
+}

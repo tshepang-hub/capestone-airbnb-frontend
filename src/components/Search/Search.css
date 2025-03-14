@@ -1,0 +1,66 @@
+.search-container {
+    display: flex;
+    justify-content: center; /* Center the search box horizontally */
+    padding: 20px;
+}
+.search-box {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    max-width: 900px; /* Limit maximum width */
+    background: white; /* Background color */
+    border-radius: 30px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    padding: 10px; /* Inner padding */
+}
+.search-field {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    flex: 1; /* Take up available space */
+    margin-right: 10px; /* Space between fields */
+}
+input[type="text"] {
+    padding: 10px;
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+    outline: none; /* Remove outline on focus */
+}
+.datePicker {
+    padding: 10px;
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+    outline: none; /* Remove outline on focus */
+}
+.guests {
+    position: relative; /* For positioning the popup */
+    cursor: pointer; /* Cursor change on hover */
+}
+.dropdown {
+    padding: 10px;
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+}
+.search-button {
+    background-color: #ff385c; /* Airbnb's primary color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor change on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+.search-button:hover {
+    background-color: #e63946; /* Darker shade on hover */
+}
+.error-message {
+    color: red; /* Error message color */
+    margin-top: 10px; /* Space above the error message */
+}

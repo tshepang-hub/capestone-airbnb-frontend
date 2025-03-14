@@ -1,0 +1,75 @@
+*{
+    font-famil:roboto;
+}
+
+@media (max-width: 720px) {
+    body {
+        width: 100vh;
+    }
+
+    .gift-cards {
+        margin-left: 0px;
+    }
+
+    .hosting-questions {
+        width: 100vh;
+        margin-left: 50px;
+    }
+
+    .inspiration-getaways {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 107vh;
+    }
+
+    .footer {
+        padding-left: 60px;
+        margin-top: 60px;
+        width: 107vh;
+    }
+
+    .discover,.searchPage-results,nav {
+        width: 107vh;
+    }
+    .home-container{
+        width: 115vh;
+    }
+
+    .card,.cards,.create-listing-container{
+        width: 104vh;
+    }
+
+    .table-container{
+        width: unset;
+    }
+
+    .reservations-table{
+        min-height: 70vh;
+    }
+
+   .searchPage-results{
+        padding-left: 10px;
+    }
+    .searchPage-info {
+        padding: 20px 20px 0 10px !important;
+    }
+
+    .container{
+        width: unset;
+        padding-left: 10px;
+    }
+
+    .rental-details{
+        margin-right: unset;
+    }
+
+    .login-container{
+        height: 150vh;
+        background-color: transparent;
+    }
+
+    .login-box{
+        padding: 50px;
+        width: 140vw;
+    }
+}

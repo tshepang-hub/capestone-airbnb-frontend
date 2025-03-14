@@ -1,0 +1,27 @@
+/* MyDropzone.css */
+.dropzone {
+    border: 2px dashed #D3D3D3;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    text-align: center;
+    color: #484848;
+    font-family: 'Arial', sans-serif;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #484848;
+  }
+  
+  .dropzone.active {
+    border-color: #FF5A5F;
+    background-color: #FFEBEC;
+    color: #FF5A5F;
+  }
+  
+  .dropzone.active p {
+    color: #FF5A5F;
+  }

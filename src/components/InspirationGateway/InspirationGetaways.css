@@ -1,0 +1,57 @@
+
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 45px
+  }
+  
+  .tabs-nav {
+    display: flex;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+    width: 90% !important;
+  }
+  
+  .tab-nav {
+    padding: 4px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .tab-nav.active {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  
+  .destinations {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8px;
+  }
+  
+  .destination {
+    width: 200px;
+    margin-bottom: 16px;
+  }
+  
+  .city {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .state {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .show-more {
+    color: black;
+    cursor: pointer;
+  }
+   
+  .inspiration-getaways {
+    margin-left: 105px;
+    margin-top: 50px;
+  }

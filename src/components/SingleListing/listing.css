@@ -1,0 +1,173 @@
+.searchResult {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    }
+  
+  .searchResult:hover {
+    background-color: #77777737;
+  }
+  
+  .searchResult > img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .searchResult_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  
+  .searchResult_heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+  }
+  
+  .searchResult_infoTop {
+    width: 40vw;
+  }
+  
+  .searchResult_infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  
+  .searchResult_infoTop > p {
+    margin-top: 5px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .searchResult_infoBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .searchResult_stars {
+    color: gray !important;
+  }
+  
+  .searchResult_stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchResult_price > p {
+    text-align: right;
+  }
+  
+  .searchResult_price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+  }
+
+  .searchResult_stars p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchResult_stars p span{
+    color: gray;
+    font-size: 15px;
+  }
+  
+  .searchResult_image {
+    position: relative;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .searchResult_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .searchResult_heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .searchResult_info {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .searchResult_infoTop {
+    margin-bottom: 10px;
+  }
+  
+  .searchResult_location {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .searchResult_title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .searchResult_separator {
+    margin: 5px 0;
+    color: #aaa;
+  }
+  
+  .searchResult_description {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .searchResult_infoBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .searchResult_stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchResult_starRating {
+    font-size: 16px;
+  }
+  
+  .searchResult_starIcon {
+    color: orange;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .searchResult_reviews {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .searchResult_price {
+    text-align: right;
+  }
+  
+  .searchResult_priceValue {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .searchResult_total {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
